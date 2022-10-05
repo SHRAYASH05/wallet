@@ -5,7 +5,7 @@ class Transaction {
   final String type;
   final double amount;
   final DateTime date;
-  final String iconid;
+  final String imageid;
   final String colorid;
   final String textcolor;
 
@@ -14,7 +14,7 @@ class Transaction {
     @required this.type,
     @required this.amount,
     @required this.date,
-    @required this.iconid,
+    @required this.imageid,
     @required this.colorid,
     @required this.textcolor,
   });
